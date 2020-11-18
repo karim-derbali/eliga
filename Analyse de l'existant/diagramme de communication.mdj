@@ -95,7 +95,7 @@
 									"font": "Arial;13;0",
 									"left": 8,
 									"top": 8,
-									"width": 969,
+									"width": 1145,
 									"height": 833,
 									"nameLabel": {
 										"$ref": "AAAAAAF12rGju9FYtHc="
@@ -103,10 +103,153 @@
 									"frameTypeLabel": {
 										"$ref": "AAAAAAF12rGju9FZZnw="
 									}
+								},
+								{
+									"_type": "UMLCommLifelineView",
+									"_id": "AAAAAAF12s+Bq8KyNUI=",
+									"_parent": {
+										"$ref": "AAAAAAF12rGjutFWg3M="
+									},
+									"model": {
+										"$ref": "AAAAAAF12s+BqsKx8/c="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF12s+Bq8KzQUk=",
+											"_parent": {
+												"$ref": "AAAAAAF12s+Bq8KyNUI="
+											},
+											"model": {
+												"$ref": "AAAAAAF12s+BqsKx8/c="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF12s+Bq8K0Y1U=",
+													"_parent": {
+														"$ref": "AAAAAAF12s+Bq8KzQUk="
+													},
+													"visible": false,
+													"lineColor": "#e6e6e6",
+													"fillColor": "#5b5b5b",
+													"fontColor": "#ffffff",
+													"font": "Arial;13;0",
+													"left": -48,
+													"top": -80,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF12s+Bq8K1dgo=",
+													"_parent": {
+														"$ref": "AAAAAAF12s+Bq8KzQUk="
+													},
+													"lineColor": "#e6e6e6",
+													"fillColor": "#5b5b5b",
+													"fontColor": "#ffffff",
+													"font": "Arial;13;1",
+													"left": 133,
+													"top": 119,
+													"width": 90,
+													"height": 13,
+													"text": "ADA"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF12s+Bq8K25Cw=",
+													"_parent": {
+														"$ref": "AAAAAAF12s+Bq8KzQUk="
+													},
+													"visible": false,
+													"lineColor": "#e6e6e6",
+													"fillColor": "#5b5b5b",
+													"fontColor": "#ffffff",
+													"font": "Arial;13;0",
+													"left": -48,
+													"top": -80,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF12s+Bq8K3j/o=",
+													"_parent": {
+														"$ref": "AAAAAAF12s+Bq8KzQUk="
+													},
+													"visible": false,
+													"lineColor": "#e6e6e6",
+													"fillColor": "#5b5b5b",
+													"fontColor": "#ffffff",
+													"font": "Arial;13;0",
+													"left": -48,
+													"top": -80,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"lineColor": "#e6e6e6",
+											"fillColor": "#5b5b5b",
+											"fontColor": "#ffffff",
+											"font": "Arial;13;0",
+											"left": 128,
+											"top": 112,
+											"width": 100,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAF12s+Bq8K0Y1U="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAF12s+Bq8K1dgo="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAF12s+Bq8K25Cw="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAF12s+Bq8K3j/o="
+											}
+										}
+									],
+									"lineColor": "#e6e6e6",
+									"fillColor": "#5b5b5b",
+									"fontColor": "#ffffff",
+									"font": "Arial;13;0",
+									"left": 128,
+									"top": 112,
+									"width": 100,
+									"height": 30,
+									"nameCompartment": {
+										"$ref": "AAAAAAF12s+Bq8KzQUk="
+									}
 								}
 							]
 						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAF12s+BqsKx8/c=",
+							"_parent": {
+								"$ref": "AAAAAAF12rGjutFVsJc="
+							},
+							"name": "ADA",
+							"represent": {
+								"$ref": "AAAAAAF12s+BqsKwI64="
+							},
+							"isMultiInstance": false
+						}
 					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAF12s+BqsKwI64=",
+					"_parent": {
+						"$ref": "AAAAAAF12rGjudFUnkA="
+					},
+					"name": "Role1"
 				}
 			]
 		}
