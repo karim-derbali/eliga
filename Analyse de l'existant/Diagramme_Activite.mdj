@@ -6101,7 +6101,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1590,
-									"top": 1331,
+									"top": 1315,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -6122,7 +6122,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 1590,
-									"top": 1316,
+									"top": 1300,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -6143,7 +6143,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1590,
-									"top": 1361,
+									"top": 1345,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -6160,7 +6160,7 @@
 							"tail": {
 								"$ref": "AAAAAAF2ItV78YNd20I="
 							},
-							"points": "1533:1352;1648:1352",
+							"points": "1533:1336;1648:1336",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF2Itwg5YQKmSg="
@@ -6370,39 +6370,6 @@
 							},
 							"propertyLabel": {
 								"$ref": "AAAAAAF2It24PIROPbo="
-							}
-						},
-						{
-							"_type": "UMLSwimlaneView",
-							"_id": "AAAAAAF2IuMvxoR+7R4=",
-							"_parent": {
-								"$ref": "AAAAAAF1/qHRo6aH/QE="
-							},
-							"model": {
-								"$ref": "AAAAAAF2IuMvxYR8rOA="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAF2IuMvxoR/C/U=",
-									"_parent": {
-										"$ref": "AAAAAAF2IuMvxoR+7R4="
-									},
-									"font": "Arial;13;0",
-									"left": 2432,
-									"top": 4,
-									"width": 233,
-									"height": 13,
-									"text": "Banque",
-									"verticalAlignment": 3
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 2432,
-							"width": 233,
-							"height": 3673,
-							"nameLabel": {
-								"$ref": "AAAAAAF2IuMvxoR/C/U="
 							}
 						},
 						{
