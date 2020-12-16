@@ -4168,7 +4168,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 664,
+									"left": 678,
 									"top": 967,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4189,7 +4189,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 679,
+									"left": 693,
 									"top": 967,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4210,7 +4210,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 635,
+									"left": 649,
 									"top": 968,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4228,7 +4228,7 @@
 							"tail": {
 								"$ref": "AAAAAAF2CWaNRzunRWk="
 							},
-							"points": "650:957;650:992",
+							"points": "664:957;664:992",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF2CWehZTv9Yis="
@@ -10767,16 +10767,16 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1104,
-									"top": 1266,
+									"top": 1259,
 									"width": 118,
-									"height": 39,
+									"height": 52,
 									"alpha": -1.4152927041896843,
 									"distance": 77.1621668954417,
 									"hostEdge": {
 										"$ref": "AAAAAAF2Mx9ycBkv5gA="
 									},
 									"edgePosition": 1,
-									"text": "[formulaire reservation hotêl compris]",
+									"text": "[formulaire reservation hotêl compris et est chercheur]",
 									"wordWrap": true
 								},
 								{
@@ -13576,7 +13576,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1/qHRo6aGIYI="
 					},
-					"name": "[formulaire reservation hotêl compris]",
+					"name": "[formulaire reservation hotêl compris et est chercheur]",
 					"source": {
 						"$ref": "AAAAAAF2Mx883hkVcYM="
 					},
