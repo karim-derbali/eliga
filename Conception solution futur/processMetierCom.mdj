@@ -1488,13 +1488,13 @@
 												"$ref": "AAAAAAF2aqfxKUJ5sl8="
 											},
 											"font": "Arial;13;0",
-											"left": 257.38916015625,
+											"left": 197.537109375,
 											"top": 431,
-											"width": 132.2216796875,
+											"width": 251.92578125,
 											"height": 13,
 											"alpha": -1.570795892012288,
 											"distance": 23,
-											"text": "3 : envoyerProgramme"
+											"text": "3 : envoyerLienDuSiteAvecProgramme"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -1806,13 +1806,13 @@
 												"$ref": "AAAAAAF2aqnneUQon+Y="
 											},
 											"font": "Arial;13;0",
-											"left": 191.0615234375,
-											"top": 335,
-											"width": 256.876953125,
+											"left": 167.078369140625,
+											"top": 351,
+											"width": 290.84326171875,
 											"height": 13,
-											"alpha": -4.6183279327715265,
-											"distance": 53.23532661682466,
-											"text": "4 : inscription + paiement[inscriptionSurSite]"
+											"alpha": -4.398768572715268,
+											"distance": 38.897300677553446,
+											"text": "4 : inscription + paiement (en ligne ou par courrier)"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -2105,89 +2105,6 @@
 									}
 								},
 								{
-									"_type": "UMLCommMessageView",
-									"_id": "AAAAAAF2aqqHP0WhKrI=",
-									"_parent": {
-										"$ref": "AAAAAAF2ap1EV0DhYxE="
-									},
-									"model": {
-										"$ref": "AAAAAAF2aqqHP0Wg3Tk="
-									},
-									"subViews": [
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2aqqHP0WiCZo=",
-											"_parent": {
-												"$ref": "AAAAAAF2aqqHP0WhKrI="
-											},
-											"model": {
-												"$ref": "AAAAAAF2aqqHP0Wg3Tk="
-											},
-											"font": "Arial;13;0",
-											"left": 171.038818359375,
-											"top": 447,
-											"width": 304.92236328125,
-											"height": 13,
-											"alpha": -1.5707960703846402,
-											"distance": 39,
-											"text": "5 : envoieDossierInscription[!inscriptionSurSite]"
-										},
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2aqqHP0WjmMo=",
-											"_parent": {
-												"$ref": "AAAAAAF2aqqHP0WhKrI="
-											},
-											"model": {
-												"$ref": "AAAAAAF2aqqHP0Wg3Tk="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 323.5,
-											"top": 384,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 25
-										},
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2aqqHP0Wkk6k=",
-											"_parent": {
-												"$ref": "AAAAAAF2aqqHP0WhKrI="
-											},
-											"model": {
-												"$ref": "AAAAAAF2aqqHP0Wg3Tk="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 323.5,
-											"top": 399,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 304,
-									"top": 416,
-									"width": 40,
-									"alpha": 1.5707963267948966,
-									"distance": 10,
-									"hostEdge": {
-										"$ref": "AAAAAAF2aqqHPkWVt/g="
-									},
-									"edgePosition": 1,
-									"nameLabel": {
-										"$ref": "AAAAAAF2aqqHP0WiCZo="
-									},
-									"stereotypeLabel": {
-										"$ref": "AAAAAAF2aqqHP0WjmMo="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAF2aqqHP0Wkk6k="
-									}
-								},
-								{
 									"_type": "UMLConnectorView",
 									"_id": "AAAAAAF2aqwzokepPnw=",
 									"_parent": {
@@ -2420,89 +2337,6 @@
 									},
 									"headMultiplicityLabel": {
 										"$ref": "AAAAAAF2aqwzokeyjik="
-									}
-								},
-								{
-									"_type": "UMLCommMessageView",
-									"_id": "AAAAAAF2aqwzo0e1CVE=",
-									"_parent": {
-										"$ref": "AAAAAAF2ap1EV0DhYxE="
-									},
-									"model": {
-										"$ref": "AAAAAAF2aqwzo0e0Gds="
-									},
-									"subViews": [
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2aqwzo0e2n7o=",
-											"_parent": {
-												"$ref": "AAAAAAF2aqwzo0e1CVE="
-											},
-											"model": {
-												"$ref": "AAAAAAF2aqwzo0e0Gds="
-											},
-											"font": "Arial;13;0",
-											"left": 207.44921875,
-											"top": 352,
-											"width": 234.1015625,
-											"height": 13,
-											"alpha": 1.5707960565246264,
-											"distance": 37,
-											"text": "6 : finaliserInscription[!inscriptionSurSite]"
-										},
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2aqwzo0e3Eoc=",
-											"_parent": {
-												"$ref": "AAAAAAF2aqwzo0e1CVE="
-											},
-											"model": {
-												"$ref": "AAAAAAF2aqwzo0e0Gds="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 324.5,
-											"top": 364,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 25
-										},
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2aqwzo0e4QRI=",
-											"_parent": {
-												"$ref": "AAAAAAF2aqwzo0e1CVE="
-											},
-											"model": {
-												"$ref": "AAAAAAF2aqwzo0e0Gds="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 324.5,
-											"top": 379,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 305,
-									"top": 396,
-									"width": 40,
-									"alpha": 1.5707963267948966,
-									"distance": 10,
-									"hostEdge": {
-										"$ref": "AAAAAAF2aqwzokepPnw="
-									},
-									"edgePosition": 1,
-									"nameLabel": {
-										"$ref": "AAAAAAF2aqwzo0e2n7o="
-									},
-									"stereotypeLabel": {
-										"$ref": "AAAAAAF2aqwzo0e3Eoc="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAF2aqwzo0e4QRI="
 									}
 								},
 								{
@@ -2765,7 +2599,7 @@
 											"height": 13,
 											"alpha": -4.617437745952067,
 											"distance": 21.095023109728988,
-											"text": "7 : annulerInscription[envieAnnuler]"
+											"text": "5 : annulerInscription[envieAnnuler]"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -3083,7 +2917,7 @@
 											"height": 13,
 											"alpha": 1.2924962275382683,
 											"distance": 21.840329667841555,
-											"text": "11 : envoieChèque[!inscriptionSurSite]"
+											"text": "8 : envoieChèque[!inscriptionSurSite]"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -3401,7 +3235,7 @@
 											"height": 13,
 											"alpha": 0.12914727354152358,
 											"distance": 77.64663547121665,
-											"text": "9 : envoieRéservation"
+											"text": "6 : envoieRéservation"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -3718,7 +3552,7 @@
 											"height": 13,
 											"alpha": -0.17809292079609657,
 											"distance": 101.6070863670443,
-											"text": "10 : confirmerReservation"
+											"text": "7 : confirmerReservation"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -4011,89 +3845,6 @@
 									}
 								},
 								{
-									"_type": "UMLCommMessageView",
-									"_id": "AAAAAAF2armBCWMx6qo=",
-									"_parent": {
-										"$ref": "AAAAAAF2ap1EV0DhYxE="
-									},
-									"model": {
-										"$ref": "AAAAAAF2armBCWMwv4E="
-									},
-									"subViews": [
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2armBCWMyK8U=",
-											"_parent": {
-												"$ref": "AAAAAAF2armBCWMx6qo="
-											},
-											"model": {
-												"$ref": "AAAAAAF2armBCWMwv4E="
-											},
-											"font": "Arial;13;0",
-											"left": 215.03076171875,
-											"top": 464,
-											"width": 212.9384765625,
-											"height": 13,
-											"alpha": -1.6071437662358374,
-											"distance": 55.036351623268054,
-											"text": "8 : avisAnnulationInscription[!valide]"
-										},
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2armBCWMzmsA=",
-											"_parent": {
-												"$ref": "AAAAAAF2armBCWMx6qo="
-											},
-											"model": {
-												"$ref": "AAAAAAF2armBCWMwv4E="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 323.5,
-											"top": 384,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 25
-										},
-										{
-											"_type": "NodeLabelView",
-											"_id": "AAAAAAF2armBCmM0OSs=",
-											"_parent": {
-												"$ref": "AAAAAAF2armBCWMx6qo="
-											},
-											"model": {
-												"$ref": "AAAAAAF2armBCWMwv4E="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 323.5,
-											"top": 399,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 304,
-									"top": 416,
-									"width": 40,
-									"alpha": 1.5707963267948966,
-									"distance": 10,
-									"hostEdge": {
-										"$ref": "AAAAAAF2armBCWMlvQA="
-									},
-									"edgePosition": 1,
-									"nameLabel": {
-										"$ref": "AAAAAAF2armBCWMyK8U="
-									},
-									"stereotypeLabel": {
-										"$ref": "AAAAAAF2armBCWMzmsA="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAF2armBCmM0OSs="
-									}
-								},
-								{
 									"_type": "UMLConnectorView",
 									"_id": "AAAAAAF2ar0KlnBvsrg=",
 									"_parent": {
@@ -4349,12 +4100,12 @@
 											},
 											"font": "Arial;13;0",
 											"left": 196.68017578125,
-											"top": 479,
+											"top": 447,
 											"width": 253.6396484375,
 											"height": 13,
-											"alpha": -1.5707961859498263,
-											"distance": 71,
-											"text": "12 : envoyerBilletCorrespondantAInscription"
+											"alpha": -1.5707960703846402,
+											"distance": 39,
+											"text": "9 : envoyerBilletCorrespondantAInscription"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -4672,7 +4423,7 @@
 											"height": 13,
 											"alpha": -3.1082716521621556,
 											"distance": 60.03332407921454,
-											"text": "13 : rémunérer"
+											"text": "10 : rémunérer"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -4773,7 +4524,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2ap1EVkDgzrw="
 							},
-							"name": "envoyerProgramme",
+							"name": "envoyerLienDuSiteAvecProgramme",
 							"source": {
 								"$ref": "AAAAAAF2aqFUgkDzbcY="
 							},
@@ -4790,7 +4541,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2ap1EVkDgzrw="
 							},
-							"name": "inscription + paiement[inscriptionSurSite]",
+							"name": "inscription + paiement (en ligne ou par courrier)",
 							"source": {
 								"$ref": "AAAAAAF2aqXVl0EQG3k="
 							},
@@ -4799,40 +4550,6 @@
 							},
 							"connector": {
 								"$ref": "AAAAAAF2aqnneEQaMCA="
-							}
-						},
-						{
-							"_type": "UMLMessage",
-							"_id": "AAAAAAF2aqqHP0Wg3Tk=",
-							"_parent": {
-								"$ref": "AAAAAAF2ap1EVkDgzrw="
-							},
-							"name": "envoieDossierInscription[!inscriptionSurSite]",
-							"source": {
-								"$ref": "AAAAAAF2aqFUgkDzbcY="
-							},
-							"target": {
-								"$ref": "AAAAAAF2aqXVl0EQG3k="
-							},
-							"connector": {
-								"$ref": "AAAAAAF2aqqHPUWSx8U="
-							}
-						},
-						{
-							"_type": "UMLMessage",
-							"_id": "AAAAAAF2aqwzo0e0Gds=",
-							"_parent": {
-								"$ref": "AAAAAAF2ap1EVkDgzrw="
-							},
-							"name": "finaliserInscription[!inscriptionSurSite]",
-							"source": {
-								"$ref": "AAAAAAF2aqXVl0EQG3k="
-							},
-							"target": {
-								"$ref": "AAAAAAF2aqFUgkDzbcY="
-							},
-							"connector": {
-								"$ref": "AAAAAAF2aqwzoUemSVU="
 							}
 						},
 						{
@@ -4850,23 +4567,6 @@
 							},
 							"connector": {
 								"$ref": "AAAAAAF2aq903kxUqMc="
-							}
-						},
-						{
-							"_type": "UMLMessage",
-							"_id": "AAAAAAF2armBCWMwv4E=",
-							"_parent": {
-								"$ref": "AAAAAAF2ap1EVkDgzrw="
-							},
-							"name": "avisAnnulationInscription[!valide]",
-							"source": {
-								"$ref": "AAAAAAF2aqFUgkDzbcY="
-							},
-							"target": {
-								"$ref": "AAAAAAF2aqXVl0EQG3k="
-							},
-							"connector": {
-								"$ref": "AAAAAAF2armBCWMi78Y="
 							}
 						},
 						{
@@ -5244,7 +4944,8 @@
 								}
 							}
 						}
-					]
+					],
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5335,7 +5036,8 @@
 								}
 							}
 						}
-					]
+					],
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5372,7 +5074,8 @@
 								}
 							}
 						}
-					]
+					],
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5409,7 +5112,8 @@
 								}
 							}
 						}
-					]
+					],
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -5417,7 +5121,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF2ap1EVUDfB5k="
 					},
-					"name": "Role5"
+					"name": "Role5",
+					"type": ""
 				}
 			]
 		}
