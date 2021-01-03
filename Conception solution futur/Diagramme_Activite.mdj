@@ -3185,9 +3185,9 @@
 											"font": "Arial;13;1",
 											"left": 629,
 											"top": 1934,
-											"width": 169.01904296875,
+											"width": 182.05078125,
 											"height": 13,
-											"text": "3 jours avant ou annulation"
+											"text": "Le client annule 3 jours avant"
 										},
 										{
 											"_type": "LabelView",
@@ -3220,7 +3220,7 @@
 									"font": "Arial;13;0",
 									"left": 624,
 									"top": 1927,
-									"width": 179.01904296875,
+									"width": 192.05078125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF2Iq7W+sY031o="
@@ -3243,7 +3243,7 @@
 							"containerChangeable": true,
 							"left": 624,
 							"top": 1904,
-							"width": 179.01904296875,
+							"width": 192.05078125,
 							"height": 49,
 							"nameCompartment": {
 								"$ref": "AAAAAAF2Iq7W+cYzPUE="
@@ -11785,7 +11785,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF1/tSUMqdKCJk="
 							},
-							"name": "3 jours avant ou annulation",
+							"name": "Le client annule 3 jours avant",
 							"kind": "timeEvent"
 						},
 						{
